@@ -3,7 +3,7 @@ services:
      image: nginx:latest
      container_name: reverse_proxy
      volumes:
-         - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+         - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
          - ./nginx/templates:/etc/nginx/templates
          - ./container_logs/nginx:/var/log/nginx
 #          - ./secrets/nginx:/etc/ssl
@@ -12,7 +12,7 @@ services:
 #         - "443:443"
      environment:
         - NGINX_PORT=80
-        - NGINX_PROXY=http://application:3002
+        - NGINX_PROXY=http://application:3000
 #        - NGINX_CERT_DIR=/etc/ssl
 #        - NGINX_SSL_PORT=443
 #        - NGINX_ENTRYPOINT_QUIET_LOGS=1
@@ -22,12 +22,11 @@ services:
 
   application:
     image: wt1-express-local
-    build:
+    build:  
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3002:3002"
+      - "3000:3000"
     volumes:
       - ./:/home/node/
     command: "npm start"
-
