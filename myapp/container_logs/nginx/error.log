@@ -1,0 +1,66 @@
+2025/04/24 08:52:05 [error] 32#32: *1 directory index of "/usr/share/nginx/html/doc/" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 08:55:34 [error] 32#32: *1 directory index of "/usr/share/nginx/html/doc/" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 08:55:34 [error] 32#32: *1 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/doc/"
+2025/04/24 09:02:01 [error] 32#32: *1 directory index of "/usr/share/nginx/html/doc/" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 09:05:24 [error] 32#32: *3 open() "/usr/share/nginx/html/doc/test.html" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /doc/test.html HTTP/1.1", host: "localhost"
+2025/04/24 09:07:53 [error] 32#32: *5 open() "/usr/share/nginx/html/doc/test.html" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /doc/test.html HTTP/1.1", host: "localhost"
+2025/04/24 09:08:56 [error] 32#32: *5 directory index of "/usr/share/nginx/html/doc/" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 09:13:39 [error] 32#32: *1 directory index of "/usr/share/nginx/html/doc" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 09:13:44 [error] 32#32: *1 open() "/usr/share/nginx/html/doctest.html" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /doc/test.html HTTP/1.1", host: "localhost"
+2025/04/24 09:13:53 [error] 32#32: *1 directory index of "/usr/share/nginx/html/doc" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 09:14:17 [error] 32#32: *1 directory index of "/usr/share/nginx/html/doc" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 09:15:13 [error] 32#32: *1 directory index of "/usr/share/nginx/html/doc" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 09:16:06 [error] 32#32: *1 open() "/usr/share/nginx/html/doctest.html" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /doc/test.html HTTP/1.1", host: "localhost"
+2025/04/24 10:29:26 [error] 32#32: *6 directory index of "/usr/share/nginx/html/doc" is forbidden, client: 172.18.0.1, server: , request: "GET /doc/ HTTP/1.1", host: "localhost"
+2025/04/24 10:32:29 [notice] 1#1: using the "epoll" event method
+2025/04/24 10:32:29 [notice] 1#1: nginx/1.27.5
+2025/04/24 10:32:29 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/04/24 10:32:29 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2025/04/24 10:32:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/04/24 10:32:29 [notice] 1#1: start worker processes
+2025/04/24 10:32:29 [notice] 1#1: start worker process 35
+2025/04/24 10:32:29 [notice] 1#1: start worker process 36
+2025/04/24 10:32:29 [notice] 1#1: start worker process 37
+2025/04/24 10:32:29 [notice] 1#1: start worker process 38
+2025/04/24 10:32:29 [notice] 1#1: start worker process 39
+2025/04/24 10:32:29 [notice] 1#1: start worker process 40
+2025/04/24 10:32:29 [notice] 1#1: start worker process 41
+2025/04/24 10:32:29 [notice] 1#1: start worker process 42
+2025/04/24 10:42:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/04/24 10:42:00 [notice] 36#36: gracefully shutting down
+2025/04/24 10:42:00 [notice] 35#35: gracefully shutting down
+2025/04/24 10:42:00 [notice] 38#38: gracefully shutting down
+2025/04/24 10:42:00 [notice] 37#37: gracefully shutting down
+2025/04/24 10:42:00 [notice] 41#41: gracefully shutting down
+2025/04/24 10:42:00 [notice] 40#40: gracefully shutting down
+2025/04/24 10:42:00 [notice] 42#42: gracefully shutting down
+2025/04/24 10:42:00 [notice] 39#39: gracefully shutting down
+2025/04/24 10:42:00 [notice] 36#36: exiting
+2025/04/24 10:42:00 [notice] 35#35: exiting
+2025/04/24 10:42:00 [notice] 38#38: exiting
+2025/04/24 10:42:00 [notice] 37#37: exiting
+2025/04/24 10:42:00 [notice] 37#37: exit
+2025/04/24 10:42:00 [notice] 41#41: exiting
+2025/04/24 10:42:00 [notice] 40#40: exiting
+2025/04/24 10:42:00 [notice] 42#42: exiting
+2025/04/24 10:42:00 [notice] 39#39: exiting
+2025/04/24 10:42:00 [notice] 36#36: exit
+2025/04/24 10:42:00 [notice] 35#35: exit
+2025/04/24 10:42:00 [notice] 38#38: exit
+2025/04/24 10:42:00 [notice] 41#41: exit
+2025/04/24 10:42:00 [notice] 40#40: exit
+2025/04/24 10:42:00 [notice] 42#42: exit
+2025/04/24 10:42:00 [notice] 39#39: exit
+2025/04/24 10:42:01 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2025/04/24 10:42:01 [notice] 1#1: worker process 35 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: worker process 36 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: worker process 37 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: worker process 38 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: worker process 39 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: worker process 40 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: worker process 42 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: signal 29 (SIGIO) received
+2025/04/24 10:42:01 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2025/04/24 10:42:01 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2025/04/24 10:42:01 [notice] 1#1: worker process 41 exited with code 0
+2025/04/24 10:42:01 [notice] 1#1: exit
